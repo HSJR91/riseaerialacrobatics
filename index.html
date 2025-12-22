@@ -88,7 +88,14 @@
             padding: 0;
             box-sizing: border-box;
         }
-        
+        video {
+    max-width: 600px;   /* or 100%, or any size you like */
+    width: 100%;
+    display: block;
+    margin: 1.5rem auto; /* centers the video */
+    border-radius: 10px; /* optional, for nicer look */
+}
+
         html {
             scroll-behavior: smooth;
         }
@@ -836,6 +843,7 @@
             <p class="intro-text">Hear from the amazing members of our community</p>
             
             <div class="testimonials-grid">
+                
                 <div class="testimonial-card">
                     <div class="stars">★★★★★</div>
                     <p>"I would recommend it, there's a good sense of community. Everyone in the class cheers everyone on and it's really fun."</p>
